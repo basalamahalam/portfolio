@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000814;
+}
+
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke-width: 1px; /* Adjust stroke width as needed */
+  -webkit-text-stroke-color: #f49e21; /* Adjust stroke color as needed */
+}
+
+.text-gradient {
+  background: linear-gradient(to right, white, #4e5257, #4a71aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
