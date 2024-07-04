@@ -34,7 +34,7 @@ const About = () => {
             continuously seeking challenges and new experiences to improve
             myself. I also enjoy teamwork, communication, and problem-solving.
           </p>
-          <div className="w-[400px] bg-gradient-to-tr from-primary to-black rounded-lg p-5">
+          <div className="w-[400px] bg-gradient-to-tr from-[#051923] to-primary rounded-lg p-5">
             <div className="flex justify-start items-center">
               <IoPersonCircleSharp className="text-white text-3xl" />
               <div className="ml-5">
