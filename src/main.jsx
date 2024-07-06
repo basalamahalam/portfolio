@@ -1,18 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
-import Navbar from "./components/Navbar.jsx";
-import Header from "./components/Header.jsx";
-import About from "./components/About.jsx";
-import Skills from "./components/Skills.jsx";
-import Footer from "./components/Footer.jsx";
+import Home from "./pages/Home";
+import Resume from "./pages/Resume";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Navbar />
-    <Header />
-    <About />
-    <Skills />
-    <Footer />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
