@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Gambar from "../assets/dada.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -11,14 +12,17 @@ const Navbar = () => {
 
   return (
     <div className="relative z-40 flex justify-between items-center h-24 mx-auto max-w-full px-32 text-white bg-gradient-to-b from-black to-primary">
-      {/* <h1 className="text-xl font-amaranth font-bold tracking-widest">
-        Basalamah Alam
-      </h1> */}
       <img src={Gambar} alt="Logo" className="w-[200px]" />
       <ul className="md:flex hidden">
-        <li className="p-4  font-amaranth text-lg">Home</li>
-        <li className="p-4  font-amaranth text-lg">About</li>
-        <li className="p-4  font-amaranth text-lg">Experience</li>
+        <li className="p-4  font-amaranth text-lg">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="p-4  font-amaranth text-lg">
+          <Link to="/resume">Resume</Link>
+        </li>
+        <li className="p-4  font-amaranth text-lg">
+          <Link to="/experiences">Experiences</Link>
+        </li>
       </ul>
       <button className="font-amaranth text-lg px-6 py-1 bg-secondary text-primary rounded-md font-bold">
         CONTACT ME

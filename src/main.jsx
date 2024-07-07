@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home";
 import Resume from "./pages/Resume";
+import Experiences from "./pages/Experiences";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/experiences" element={<Experiences />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
