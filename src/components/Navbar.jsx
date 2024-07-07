@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative z-40 flex justify-between items-center h-24 mx-auto max-w-full px-32 text-white bg-gradient-to-b from-black to-primary">
+    <div className="fixed w-full top-0 left-0 z-40 flex justify-between items-center h-24 mx-auto max-w-full px-32 text-white bg-gradient-to-b from-black to-primary">
       <img src={Gambar} alt="Logo" className="w-[200px]" />
       <ul className="md:flex hidden">
         <li className="p-4  font-amaranth text-lg">

@@ -2,7 +2,7 @@ import Gambar from "../assets/alam.png";
 
 const Projects = () => {
   return (
-    <div className="min-h-full px-32 pb-20 mt-10 bg-gradient-to-b from-primary to-[#051923]">
+    <div className="min-h-full pt-28 px-32 pb-20 mt-10 bg-gradient-to-b from-primary to-[#051923]">
       <h1 className="font-black font-lato text-4xl text-white text-center tracking-widest">
         PROJECTS
       </h1>

@@ -7,7 +7,7 @@ import { Timeline } from "primereact/timeline";
 
 const Cv = () => {
   return (
-    <div className="px-32 mt-4 min-h-screen bg-gradient-to-b from-primary to-[#051923]">
+    <div className="pt-28 px-32 mt-4 min-h-screen bg-gradient-to-b from-primary to-[#051923]">
       <h1 className="font-black font-lato text-4xl text-white text-center tracking-widest">
         RESUME
       </h1>

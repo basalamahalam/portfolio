@@ -3,7 +3,7 @@ import Gambar from "../assets/foto.png";
 
 const Header = () => {
   return (
-    <div className="min-h-screen flex items-start justify-center">
+    <div className="pt-28 min-h-screen flex items-start justify-center">
       <div className="relative">
         <div className="flex-col items-center justify-center">
           <p className="absolute w-full top-[8%] right-[92%] font-lato font-bold text-xl text-white -z-10 tracking-wider">
