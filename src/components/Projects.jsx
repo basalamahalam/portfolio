@@ -1,8 +1,9 @@
 import Gambar from "../assets/alam.png";
+import { Button } from "@nextui-org/button";
 
 const Projects = () => {
   return (
-    <div className="min-h-full pt-28 px-32 pb-20 mt-10 bg-gradient-to-b from-primary to-[#051923]">
+    <div className="min-h-full pt-28 px-32 pb-20 bg-gradient-to-b from-primary to-[#051923]">
       <h1 className="font-black font-lato text-4xl text-white text-center tracking-widest">
         PROJECTS
       </h1>
@@ -25,9 +26,9 @@ const Projects = () => {
             Developed a website for GOReserve using Laravek and Tailwind CSS.
             This website provides information about Sporthall and blablabla.
           </p>
-          <button className="mt-5 font-poppins text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
+          <Button className="mt-5 font-poppins text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
             VIEW GITHUB
-          </button>
+          </Button>
         </div>
       </div>
       <div className="mt-10 flex items-start justify-end">
@@ -44,9 +45,9 @@ const Projects = () => {
             Developed a website for GOReserve using Laravek and Tailwind CSS.
             This website provides information about Sporthall and blablabla.
           </p>
-          <button className="mt-5 font-poppins text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
+          <Button className="mt-5 font-poppins text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
             VIEW GITHUB
-          </button>
+          </Button>
         </div>
         <img
           src={Gambar}
@@ -73,9 +74,9 @@ const Projects = () => {
             Developed a website for GOReserve using Laravek and Tailwind CSS.
             This website provides information about Sporthall and blablabla.
           </p>
-          <button className="mt-5 font-poppins text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
+          <Button className="mt-5 font-poppins text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
             VIEW GITHUB
-          </button>
+          </Button>
         </div>
       </div>
       <div className="mt-10 flex items-start justify-end">
@@ -92,9 +93,9 @@ const Projects = () => {
             Developed a website for GOReserve using Laravek and Tailwind CSS.
             This website provides information about Sporthall and blablabla.
           </p>
-          <button className="mt-5 font-poppins text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
+          <Button className="mt-5 font-poppins text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
             VIEW GITHUB
-          </button>
+          </Button>
         </div>
         <img
           src={Gambar}

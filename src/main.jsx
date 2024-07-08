@@ -5,16 +5,19 @@ import "./index.css";
 import Home from "./pages/Home";
 import Resume from "./pages/Resume";
 import Experiences from "./pages/Experiences";
+import { NextUIProvider } from "@nextui-org/react";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/experiences" element={<Experiences />} />
-      </Routes>
-    </BrowserRouter>
+    <NextUIProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/experiences" element={<Experiences />} />
+        </Routes>
+      </BrowserRouter>
+    </NextUIProvider>
   </React.StrictMode>
 );

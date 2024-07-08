@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import Gambar from "../assets/foto.png";
+import { Button } from "@nextui-org/button";
 
 const Header = () => {
   return (
     <div className="pt-28 min-h-screen flex items-start justify-center">
       <div className="relative">
-        <div className="flex-col items-center justify-center">
-          <p className="absolute w-full top-[8%] right-[92%] font-lato font-bold text-xl text-white -z-10 tracking-wider">
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center -z-10">
+          <p className="w-full top-[8%] right-[92%] font-lato font-bold text-xl text-white tracking-wider">
             Muhammad Alam Basallamah
           </p>
-          <h1 className="absolute top-[60%] -translate-y-1/2 left-1/2 -translate-x-1/2 -z-10 text-outline p-4 font-bold font-amarante text-[150px] tracking-widest">
+          <h1 className="top-[60%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-outline p-4 font-bold font-amarante text-[150px] tracking-widest">
             PORTFOLIO
           </h1>
-          <h1 className="absolute top-[30%] -translate-y-1/2 left-1/2 -translate-x-1/2 -z-10 text-outline p-4 font-bold font-amarante text-[150px] tracking-widest">
+          <h1 className="top-[30%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-outline p-4 font-bold font-amarante text-[150px] tracking-widest">
             PORTFOLIO
           </h1>
         </div>
@@ -23,12 +24,12 @@ const Header = () => {
         <p className="absolute -bottom-[12%] -right-[90%] z-10 text-[#f49e21] text-center p-4 font-bold font-lato text-xl tracking-wider">
           Bandung, Indonesia
         </p>
-        <button className="absolute z-10 -bottom-[12%] -left-[92%] font-amaranth text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
+        <Button className="absolute z-10 -bottom-[12%] -left-[92%] font-amaranth text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
           DOWNLOAD CV
-        </button>
-        <button className="absolute z-10 -bottom-[12%] -left-10 font-amaranth text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
+        </Button>
+        <Button className="absolute z-10 -bottom-[12%] -left-10 font-amaranth text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
           DOWNLOAD PORTFOLIO
-        </button>
+        </Button>
       </div>
     </div>
   );
