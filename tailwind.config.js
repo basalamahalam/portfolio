@@ -21,5 +21,5 @@ export default {
       },
     },
   },
-  plugins: [nextui()],
+  plugins: [nextui(), require("tailwind-scrollbar")],
 };

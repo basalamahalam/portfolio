@@ -27,7 +27,7 @@ const About = () => {
           Frontend Developer
         </h3>
         <div className="mt-10 flex items-center justify-around">
-          <p className="w-[400px] text-justify text-lg text-white font-light font-arima tracking-wide">
+          <p className="w-[400px] text-justify text-lg text-white font-light font-lato tracking-wide">
             I am a computer science student at Universitas Pendidikan Indonesia
             with a deep interest and strong motivation in the field of
             technology. I am always enthusiastic about learning new things and
@@ -64,7 +64,7 @@ const About = () => {
                   Hobbies
                 </h1>
                 <p className="text-white font-light text-md tracking-wider font-lato">
-                  Design, Exercise, & Watch Movies.
+                  Design, Exercise, & Playing Musical Instruments.
                 </p>
               </div>
             </div>

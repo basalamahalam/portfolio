@@ -4,6 +4,7 @@ import About from "../components/About.jsx";
 import Skills from "../components/Skills.jsx";
 import Footer from "../components/Footer.jsx";
 import React from "react";
+import { ScrollShadow } from "@nextui-org/react";
 
 const Home = () => {
   return (

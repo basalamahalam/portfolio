@@ -24,10 +24,10 @@ const Header = () => {
         <p className="absolute -bottom-[12%] -right-[90%] z-10 text-[#f49e21] text-center p-4 font-bold font-lato text-xl tracking-wider">
           Bandung, Indonesia
         </p>
-        <Button className="absolute z-0 -bottom-[12%] -left-[92%] font-amaranth text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
+        <Button className="absolute z-10 -bottom-[12%] -left-[92%] font-amaranth text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
           DOWNLOAD CV
         </Button>
-        <Button className="absolute z-0 -bottom-[12%] -left-10 font-amaranth text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
+        <Button className="absolute z-10 -bottom-[12%] -left-10 font-amaranth text-lg px-8 py-1.5 text-center bg-secondary text-primary rounded-md font-bold">
           DOWNLOAD PORTFOLIO
         </Button>
       </div>
