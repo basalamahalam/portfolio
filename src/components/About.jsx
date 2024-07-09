@@ -10,8 +10,8 @@ import { IoIosFootball } from "react-icons/io";
 
 const About = () => {
   return (
-    <div className="mt-5 min-h-screen px-32 bg-gradient-to-b from-primary to-[#051923]">
-      <div className="mt-20 flex items-center justify-evenly">
+    <div className="min-h-screen px-32 py-20 bg-gradient-to-b from-primary to-[#051923]">
+      <div className="mt-24 flex items-center justify-evenly">
         {/* button ya jangan lupa */}
         <FaLinkedin className="text-white text-4xl" />
         <SlSocialInstagram className="text-white text-4xl" />
