@@ -255,6 +255,28 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
+                <h1 className="text-white text-lg">
+                  Karang Taruna Kelurahan Binong
+                </h1>
+              </div>
+              <p className="text-[#f49e21] text-sm tracking-wide">
+                Feb 2020 - Feb 2023
+              </p>
+              <p className="text-white">NGerjain apa</p>
+            </div>
+          </div>
+        </li>
+        <li class="rounded-lg group cursor-pointer">
+          <div class="flex flex-row">
+            <div class="items-center flex flex-col justify-around">
+              {/* <div class="border-l-2 h-full border-white"></div> */}
+              <div class="bg-[#f49e21] border-2 border-black rounded-full h-5 w-5 flex flex-grow justify-around">
+                <svg class="flex-none m-2 w-8 h-8"></svg>
+              </div>
+              <div class="border-l-2 h-full border-white"></div>
+            </div>
+            <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
+              <div className="flex justify-start items-center">
                 <h1 className="text-white text-lg">OSIS SMKN 13 Bandung</h1>
               </div>
               <p className="text-[#f49e21] text-sm tracking-wide">

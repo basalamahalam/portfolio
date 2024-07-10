@@ -13,11 +13,41 @@ const About = () => {
     <div className="min-h-screen px-32 py-20 bg-gradient-to-b from-primary to-[#051923]">
       <div className="mt-24 flex items-center justify-evenly">
         {/* button ya jangan lupa */}
-        <FaLinkedin className="text-white text-4xl" />
-        <SlSocialInstagram className="text-white text-4xl" />
-        <IoLogoGithub className="text-white text-4xl" />
-        <FaSquareXTwitter className="text-white text-4xl" />
-        <BiLogoGmail className="text-white text-4xl" />
+        <a
+          href="https://www.linkedin.com/in/basalamahalam/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin className="text-slate-500 hover:text-white text-4xl" />
+        </a>
+        <a
+          href="https://www.instagram.com/_bslmhalam/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SlSocialInstagram className="text-slate-500 hover:text-white transition duration-400 text-4xl" />
+        </a>
+        <a
+          href="https://github.com/basalamahalam"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IoLogoGithub className="text-slate-500 hover:text-white transition duration-400 text-4xl" />
+        </a>
+        <a
+          href="https://x.com/basalamah_alam"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaSquareXTwitter className="text-slate-500 hover:text-white transition duration-400 text-4xl" />
+        </a>
+        <a
+          href="mailto: basalamahalam2@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BiLogoGmail className="text-slate-500 hover:text-white transition duration-400 text-4xl" />
+        </a>
       </div>
       <div className="mt-[100px]">
         <h1 className="text-center font-arima text-7xl text-white font-bold tracking-wider">
