@@ -39,7 +39,7 @@ const Projects = () => {
             </h1>
           </div>
           <h1 className="mt-5 text-2xl font-lato font-black text-white tracking-wider">
-            GOReserve
+            SISPEK13 Ver.2
           </h1>
           <p className="mt-2 text-white font-light font-lato text-md">
             Developed a website for GOReserve using Laravek and Tailwind CSS.
@@ -68,7 +68,7 @@ const Projects = () => {
             </h1>
           </div>
           <h1 className="mt-5 text-2xl font-lato font-black text-white tracking-wider">
-            GOReserve
+            SISPEK13 Ver.1
           </h1>
           <p className="mt-2 text-white font-light font-lato text-md">
             Developed a website for GOReserve using Laravek and Tailwind CSS.
@@ -87,7 +87,7 @@ const Projects = () => {
             </h1>
           </div>
           <h1 className="mt-5 text-2xl font-lato font-black text-white tracking-wider">
-            GOReserve
+            LenderUp
           </h1>
           <p className="mt-2 text-white font-light font-lato text-md">
             Developed a website for GOReserve using Laravek and Tailwind CSS.
