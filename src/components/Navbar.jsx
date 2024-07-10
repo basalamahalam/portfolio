@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link to="/resume">Resume</Link>
         </li>
         <li className="p-4  font-amaranth text-lg tracking-wider">
-          <Link to="/experiences">Experiences</Link>
+          <Link to="/projects">Projects</Link>
         </li>
       </ul>
       <Button className="font-amaranth text-lg px-6 py-1 bg-secondary text-primary rounded-md font-bold">

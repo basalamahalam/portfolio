@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/experiences" element={<Experiences />} />
+          <Route path="/projects" element={<Experiences />} />
         </Routes>
       </BrowserRouter>
     </NextUIProvider>
