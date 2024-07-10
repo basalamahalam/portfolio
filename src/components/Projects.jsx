@@ -7,7 +7,7 @@ const Projects = () => {
       <h1 className="font-black font-lato text-4xl text-white text-center tracking-widest">
         PROJECTS
       </h1>
-      <div className="mt-10 flex items-start justify-start">
+      <div className="mt-10 flex items-start justify-start bg-gradient-to-r from-[#081424] to-[#051923] p-6 rounded-xl">
         <img
           src={Gambar}
           alt="data"
@@ -31,7 +31,7 @@ const Projects = () => {
           </Button>
         </div>
       </div>
-      <div className="mt-10 flex items-start justify-end">
+      <div className="mt-5 flex items-start justify-end bg-gradient-to-r from-[#081424] to-[#051923] p-6 rounded-xl">
         <div>
           <div className="max-w-fit bg-[#f49e21] py-1 px-4 rounded-lg">
             <h1 className="text-black font-bold font-lato text-sm tracking-wide">
@@ -55,7 +55,7 @@ const Projects = () => {
           className="w-[400px] bg-slate-300 ml-10 rounded-lg shadow-lg"
         />
       </div>
-      <div className="mt-10 flex items-start justify-start">
+      <div className="mt-5 flex items-start justify-start bg-gradient-to-r from-[#081424] to-[#051923] p-6 rounded-xl">
         <img
           src={Gambar}
           alt="data"
@@ -79,7 +79,7 @@ const Projects = () => {
           </Button>
         </div>
       </div>
-      <div className="mt-10 flex items-start justify-end">
+      <div className="mt-5 flex items-start justify-end bg-gradient-to-r from-[#081424] to-[#051923] p-6 rounded-xl">
         <div>
           <div className="max-w-fit bg-[#f49e21] py-1 px-4 rounded-lg">
             <h1 className="text-black font-bold font-lato text-sm tracking-wide">
