@@ -12,8 +12,8 @@ body {
 
 .text-outline {
   color: transparent;
-  -webkit-text-stroke-width: 1px; /* Adjust stroke width as needed */
-  -webkit-text-stroke-color: #f49e21; /* Adjust stroke color as needed */
+  -webkit-text-stroke-width: 2px; /* Adjust stroke width as needed */
+  -webkit-text-stroke-color: white; /* Adjust stroke color as needed */
 }
 
 .text-gradient {

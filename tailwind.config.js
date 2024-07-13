@@ -10,14 +10,13 @@ export default {
     extend: {
       fontFamily: {
         lato: ["Lato", "sans-serif"],
-        amaranth: ["Amaranth", "sans-serif"],
+        fira: ["Fira Sans", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
-        amarante: ["Amarante", "sans-serif"],
-        arima: ["Arima", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       colors: {
         primary: "#000814",
-        secondary: "#FFC300",
+        secondary: "#2DD4BF",
       },
     },
   },
