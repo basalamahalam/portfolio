@@ -18,35 +18,35 @@ const About = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin className="text-slate-500 text-4xl hover:text-white hover:scale-125 transition-all ease-in-out duration-500" />
+          <FaLinkedin className="text-slate-500 text-4xl hover:text-teal-400 hover:scale-125 transition-all ease-in-out duration-500" />
         </a>
         <a
           href="https://www.instagram.com/_bslmhalam/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <SlSocialInstagram className="text-slate-500 text-4xl hover:text-white hover:scale-125 transition-all ease-in-out duration-500" />
+          <SlSocialInstagram className="text-slate-500 text-4xl hover:text-teal-400 hover:scale-125 transition-all ease-in-out duration-500" />
         </a>
         <a
           href="https://github.com/basalamahalam"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <IoLogoGithub className="text-slate-500 text-4xl hover:text-white hover:scale-125 transition-all ease-in-out duration-500" />
+          <IoLogoGithub className="text-slate-500 text-4xl hover:text-teal-400 hover:scale-125 transition-all ease-in-out duration-500" />
         </a>
         <a
           href="https://x.com/basalamah_alam"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaSquareXTwitter className="text-slate-500 text-4xl hover:text-white hover:scale-125 transition-all ease-in-out duration-500" />
+          <FaSquareXTwitter className="text-slate-500 text-4xl hover:text-teal-400 hover:scale-125 transition-all ease-in-out duration-500" />
         </a>
         <a
           href="mailto: basalamahalam2@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <BiLogoGmail className="text-slate-500 text-4xl hover:text-white hover:scale-125 transition-all ease-in-out duration-500" />
+          <BiLogoGmail className="text-slate-500 text-4xl hover:text-teal-400 hover:scale-125 transition-all ease-in-out duration-500" />
         </a>
       </div>
       <div className="mt-[100px]">

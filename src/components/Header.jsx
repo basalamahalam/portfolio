@@ -17,7 +17,7 @@ const Header = () => {
           </h1>
         </div>
         <img src={Gambar} className="top-0 left-0 w-[300px]" alt="Gambar" />
-        <h1 className="absolute -bottom-[12%] left-1/2 -translate-x-1/2 z-10 text-white text-center p-4 font-bold font-anton text-[140px] tracking-widest">
+        <h1 className="absolute -bottom-[12%] left-1/2 -translate-x-1/2 z-10 text-slate-200 text-center p-4 font-bold font-anton text-[140px] tracking-widest">
           PORTFOLIO
         </h1>
         <p className="absolute -bottom-[15%] -right-[97%] z-10 text-secondary text-center p-4 font-bold font-lato text-xl tracking-wider">
