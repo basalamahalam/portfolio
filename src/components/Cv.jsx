@@ -10,7 +10,7 @@ const Cv = () => {
         RESUME
       </h1>
       <div className="mt-5 mb-3 flex items-center justify-start">
-        <IoBook className=" text-secondary text-2xl" />
+        <IoBook className=" text-slate-400 text-2xl" />
         <h1 className="text-white font-lato font-bold text-2xl ml-5">
           Education
         </h1>
@@ -31,7 +31,7 @@ const Cv = () => {
                   Bachelor Degree, Universitas Pendidikan Indonesia
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Sept 2021 - Present
               </p>
               <p className="text-white font-inter text-md font-light">
@@ -55,11 +55,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 ml-5 rounded-xl">
               <div className="flex justify-start items-center">
-                <h1 className="text-white font-lato text-lg">
+                <h1 className="text-white text-lg font-inter">
                   SMK Negeri 13 Bandung
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 July 2018 - July 2021
               </p>
               <p className="text-white font-inter text-md font-light">
@@ -74,7 +74,7 @@ const Cv = () => {
         </li>
       </ul>
       <div className="mt-5 mb-3 flex items-center justify-start">
-        <IoBriefcase className="text-secondary text-2xl" />
+        <IoBriefcase className="text-slate-400 text-2xl" />
         <h1 className="text-white font-lato font-bold text-2xl ml-5">
           Experiences
         </h1>
@@ -91,11 +91,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
-                <h1 className="text-white text-lg" font-inter>
+                <h1 className="text-white text-lg font-inter">
                   Frontend Web Developer Internship, PT. Jasamedika Saranatama
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Jan 2024 - May 2024
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
@@ -115,11 +115,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 ml-5 mb-5 rounded-xl">
               <div className="flex justify-start items-center">
-                <h1 className="text-white font-lato text-lg">
+                <h1 className="text-white text-lg font-inter">
                   Fullstack Web Developer, SISPEK Ver.2
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Nov 2023 - Feb 2024
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
@@ -139,11 +139,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 ml-5 mb-5 rounded-xl">
               <div className="flex justify-start items-center">
-                <h1 className="text-white font-lato text-lg">
+                <h1 className="text-white text-lg font-inter">
                   Fullstack Web Developer, GOReserve
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Nov 2023 - Dec 2023
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
@@ -163,11 +163,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 ml-5 mb-5 rounded-xl">
               <div className="flex justify-start items-center">
-                <h1 className="text-white font-lato text-lg">
+                <h1 className="text-white text-lg font-inter">
                   Project Manager, Sixth Projects (SISPEK Ver.1)
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Feb 2023 - May 2023
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
@@ -178,7 +178,7 @@ const Cv = () => {
         </li>
       </ul>
       <div className="mt-5 mb-3 flex items-center justify-start">
-        <IoSchoolSharp className="text-secondary text-2xl" />
+        <IoSchoolSharp className="text-slate-400 text-2xl" />
         <h1 className="text-white font-lato font-bold text-2xl ml-5">
           Courses
         </h1>
@@ -195,11 +195,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
-                <h1 className="text-white text-lg" font-inter>
+                <h1 className="text-white text-lg font-inter">
                   Fullstack Web Developer, PT. Gits Indonesia
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Aug 2023 - Jan 2024
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
@@ -219,11 +219,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
-                <h1 className="text-white text-lg" font-inter>
+                <h1 className="text-white text-lg font-inter">
                   Junior Web Developer, Citra Sarana Bahasa dan Informatika
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Aug 2021 - Dec 2021
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
@@ -234,7 +234,7 @@ const Cv = () => {
         </li>
       </ul>
       <div className="mt-5 mb-3 flex items-center justify-start">
-        <IoPeopleCircle className="text-secondary text-2xl" />
+        <IoPeopleCircle className="text-slate-400 text-2xl" />
         <h1 className="text-white font-lato font-bold text-2xl ml-5">
           Organizations
         </h1>
@@ -251,11 +251,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
-                <h1 className="text-white text-lg" font-inter>
+                <h1 className="text-white text-lg font-inter">
                   BEM Kemakom FPMIPA UPI
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Jan 2022 - Jan 2023
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
@@ -275,11 +275,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
-                <h1 className="text-white text-lg" font-inter>
+                <h1 className="text-white text-lg font-inter">
                   Cerchio Yearbook
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Mar 2023 - present
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
@@ -299,11 +299,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
-                <h1 className="text-white text-lg" font-inter>
+                <h1 className="text-white text-lg font-inter">
                   ConCo Technology
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Mar 2022 - present
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
@@ -323,11 +323,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
-                <h1 className="text-white text-lg" font-inter>
+                <h1 className="text-white text-lg font-inter">
                   Karang Taruna Kelurahan Binong
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Feb 2020 - Feb 2023
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
@@ -347,11 +347,11 @@ const Cv = () => {
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
-                <h1 className="text-white text-lg" font-inter>
+                <h1 className="text-white text-lg font-inter">
                   OSIS SMKN 13 Bandung
                 </h1>
               </div>
-              <p className="text-secondary text-sm tracking-wide font-mono mb-5">
+              <p className="text-secondary text-sm tracking-wide font-inter mb-5">
                 Nov 2019 - Nov 2020
               </p>
               <p className="text-slate-400 font-inter text-md font-light">

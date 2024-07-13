@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full top-0 left-0 z-30 flex justify-between items-center h-18 mx-auto max-w-full px-32 text-white backdrop-blur-md bg-opacity-50 shadow-lg">
+    <div className="fixed w-full top-0 left-0 z-30 flex justify-between items-center h-18 mx-auto max-w-full px-32 text-white backdrop-blur-md bg-primary bg-opacity-75 shadow-lg">
       <Link to="/">
         {/* <img src={Gambar} alt="Logo" className="w-[200px]" /> */}
         <p className="text-[18px] font-poppins tracking-wide hover:text-teal-400 transition duration-500">
