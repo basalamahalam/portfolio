@@ -50,10 +50,10 @@ const About = () => {
         </a>
       </div>
       <div className="mt-[100px]">
-        <h1 className="text-center font-arima text-7xl text-white font-bold tracking-wider">
+        <h1 className="text-center font-lato text-7xl text-white font-bold tracking-wider">
           Hello, I'm <span className="text-secondary">Alam</span>!
         </h1>
-        <h3 className="mt-5 tracking-wide font-arima text-center text-5xl font-medium text-slate-700">
+        <h3 className="mt-5 tracking-wide font-lato text-center text-5xl font-medium text-slate-700">
           Frontend Developer
         </h3>
         <div className="mt-10 flex items-center justify-around">
@@ -68,10 +68,10 @@ const About = () => {
             <div className="flex justify-start items-center">
               <IoPersonCircleSharp className="text-white text-3xl" />
               <div className="ml-5">
-                <h1 className="text-white font-medium text-xl font-lato">
+                <h1 className="text-white font-medium text-xl font-inter">
                   Full Name
                 </h1>
-                <p className="text-slate-300 text-md tracking-wider font-lato">
+                <p className="text-slate-300 text-sm tracking-wider font-inter">
                   Muhammad Alam Basalamah
                 </p>
               </div>
@@ -79,21 +79,21 @@ const About = () => {
             <div className="flex justify-start items-center mt-4">
               <ImLocation className="text-white text-3xl" />
               <div className="ml-5">
-                <h1 className="text-white font-medium text-xl font-lato">
+                <h1 className="text-white font-medium text-xl font-inter">
                   Location
                 </h1>
-                <p className="text-slate-300 font-light text-md tracking-wider font-lato">
+                <p className="text-slate-300 text-sm tracking-wider font-inter">
                   Bandung, West Java, Indonesia
                 </p>
               </div>
             </div>
             <div className="flex justify-start items-center mt-4">
-              <IoIosFootball className="text-white text-3xl" />
+              <IoIosFootball className="text-white text-[32px]" />
               <div className="ml-5">
-                <h1 className="text-white font-medium text-xl font-lato">
+                <h1 className="text-white font-medium text-xl font-inter">
                   Hobbies
                 </h1>
-                <p className="text-slate-300 font-light text-md tracking-wider font-lato">
+                <p className="text-slate-300 text-sm tracking-wider font-inter">
                   Design, Exercise, & Playing Musical Instruments.
                 </p>
               </div>

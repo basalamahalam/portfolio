@@ -13,6 +13,7 @@ export default {
         fira: ["Fira Sans", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        archivo: ["Archivo Black", "sans-serif"],
       },
       colors: {
         primary: "#000814",
