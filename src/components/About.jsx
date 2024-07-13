@@ -53,8 +53,8 @@ const About = () => {
         <h1 className="text-center font-lato text-7xl text-white font-bold tracking-wider">
           Hello, I'm <span className="text-secondary">Alam</span>!
         </h1>
-        <h3 className="mt-5 tracking-wide font-lato text-center text-5xl font-medium text-slate-700">
-          Frontend Developer
+        <h3 className="mt-5 tracking-wide font-lato text-center text-5xl font-medium text-slate-500">
+          Frontend Developer & Creative Design
         </h3>
         <div className="mt-10 flex items-center justify-around">
           <p className="w-[400px] text-justify text-lg text-slate-300 font-light font-inter tracking-wide">

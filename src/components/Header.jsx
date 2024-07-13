@@ -3,11 +3,11 @@ import Gambar from "../assets/foto.png";
 
 const Header = () => {
   return (
-    <div className="pt-28 min-h-screen flex items-start justify-center bg-gradient-to-b from-primary to-[#021219]">
+    <div className="pt-24 min-h-screen flex items-start justify-center bg-gradient-to-b from-primary to-[#021219]">
       <div className="relative z-0">
         <div className="flex-col items-center justify-center">
           <p className="absolute w-full top-[8%] right-[95%] font-lato font-bold text-xl text-secondary -z-10 tracking-wider">
-            Muhammad Alam Basallamah
+            Muhammad Alam Basalamah
           </p>
           <h1 className="absolute top-[59%] -translate-y-1/2 left-1/2 -translate-x-1/2 -z-10 text-outline p-4 font-bold font-anton text-[140px] tracking-widest">
             PORTFOLIO
