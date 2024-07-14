@@ -38,7 +38,7 @@ const Cv = () => {
                 Current GPA: 3.81/4.00
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
-                Activities & Societies: BEM Kemakom, Cerchio Yearbook, ConCo, &
+                Activities & Societies: BEM Kemakom, Cerchio Yearbook, ConCo,
                 etc.
               </p>
             </div>
@@ -67,7 +67,7 @@ const Cv = () => {
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
                 Activities & Societies: OSIS, Pramuka, Forum OSIS Jawa Barat,
-                Forum Komunikasi Siswa, Satgas Adhiwiyata, JabarLead, & etc.
+                Forum Komunikasi Siswa, Satgas Adhiwiyata, JabarLead, etc.
               </p>
             </div>
           </div>
@@ -99,7 +99,11 @@ const Cv = () => {
                 Jan 2024 - May 2024
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
-                NGerjain apa
+                I am involved in developing websites using React and Next.js,
+                and learning to implement Nuxt.js for future projects.
+                Additionally, I collaborate with other student designers and
+                engineers on a project to create new brands, design systems, and
+                websites for an organization.
               </p>
             </div>
           </div>
@@ -123,7 +127,11 @@ const Cv = () => {
                 Nov 2023 - Feb 2024
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
-                Laravel
+                I am involved in the redevelopment of the previous SISPEK
+                website, covering interface design and development using Laravel
+                and TailwindCSS. Additionally, I manage all features such as the
+                admin dashboard, "menfess," registration, authentication system,
+                etc. at SISPEK13.
               </p>
             </div>
           </div>
@@ -147,7 +155,10 @@ const Cv = () => {
                 Nov 2023 - Dec 2023
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
-                LAravel
+                I am involved in developing the GOReserve website using Laravel
+                and TailwindCSS. Additionally, I manage various features such as
+                GOR booking, My Ticket, List GOR, History, Payment Gateway, etc.
+                at GOReserve.id.
               </p>
             </div>
           </div>
@@ -171,7 +182,10 @@ const Cv = () => {
                 Feb 2023 - May 2023
               </p>
               <p className="text-slate-400 font-inter text-md font-light">
-                Laravel
+                Responsible for the entire project, including creating design
+                systems and websites for the organization, as well as developing
+                and delivering technical solutions according to the business
+                needs of stakeholders.
               </p>
             </div>
           </div>
