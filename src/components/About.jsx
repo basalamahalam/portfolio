@@ -3,7 +3,7 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { IoLogoGithub } from "react-icons/io";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { AiFillDribbbleCircle } from "react-icons/ai";
 import { IoPersonCircleSharp } from "react-icons/io5";
 import { ImLocation } from "react-icons/im";
 import { IoIosFootball } from "react-icons/io";
@@ -35,11 +35,11 @@ const About = () => {
           <IoLogoGithub className="text-slate-500 text-4xl hover:text-teal-400 hover:scale-125 transition-all ease-in-out duration-500" />
         </a>
         <a
-          href="https://x.com/basalamah_alam"
+          href="https://dribbble.com/advntresupp"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaSquareXTwitter className="text-slate-500 text-4xl hover:text-teal-400 hover:scale-125 transition-all ease-in-out duration-500" />
+          <AiFillDribbbleCircle className="text-slate-500 text-4xl hover:text-teal-400 hover:scale-125 transition-all ease-in-out duration-500" />
         </a>
         <a
           href="mailto: basalamahalam2@gmail.com"
@@ -54,7 +54,7 @@ const About = () => {
           Hello, I'm <span className="text-secondary">Alam</span>!
         </h1>
         <h3 className="mt-5 tracking-wide font-lato text-center text-5xl font-medium text-slate-500">
-          Frontend Developer & Creative Design
+          Frontend Developer
         </h3>
         <div className="mt-10 flex items-center justify-around">
           <p className="w-[400px] text-justify text-lg text-slate-300 font-light font-inter tracking-wide">

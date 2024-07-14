@@ -31,11 +31,11 @@ const Navbar = () => {
             <Link to="/projects">Projects</Link>
           </li>
         </ul>
-        <div className="p-4">
+        <a href="mailto:basalamahalam2@gmail.com" className="p-4">
           <button className="font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border border-slate-900 text-gray-300 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
             Contact
           </button>
-        </div>
+        </a>
       </div>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}

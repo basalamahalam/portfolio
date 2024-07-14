@@ -45,10 +45,16 @@ const Projects = () => {
               <p className="text-teal-400 text-xs">Redis</p>
             </div>
           </div>
-          <button className="flex items-center justify-evenly mt-10 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-1 border-slate-600 text-gray-300 hover:border-slate-900 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
-            <p className="mr-2">View Github</p>
-            <FaGithub />
-          </button>
+          <a
+            href="https://github.com/arjunamhv/GOReserve"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="flex items-center justify-evenly mt-10 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-1 border-slate-600 text-gray-300 hover:border-slate-900 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
+              <p className="mr-2">View Github</p>
+              <FaGithub />
+            </button>
+          </a>
         </div>
       </div>
       <div className="mt-5 flex items-center justify-end bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 p-6 rounded-xl">
@@ -94,10 +100,16 @@ const Projects = () => {
               <p className="text-teal-400 text-xs">Queue System</p>
             </div>
           </div>
-          <button className="flex items-center justify-evenly mt-10 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-1 border-slate-600 text-gray-300 hover:border-slate-900 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
-            <p className="mr-2">View Github</p>
-            <FaGithub />
-          </button>
+          <a
+            href="https://github.com/basalamahalam/SISPEK13"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="flex items-center justify-evenly mt-10 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-1 border-slate-600 text-gray-300 hover:border-slate-900 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
+              <p className="mr-2">View Github</p>
+              <FaGithub />
+            </button>
+          </a>
         </div>
         <img
           src={Gambar}
@@ -148,10 +160,16 @@ const Projects = () => {
               <p className="text-teal-400 text-xs">Styled Components</p>
             </div>
           </div>
-          <button className="flex items-center justify-evenly mt-10 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-1 border-slate-600 text-gray-300 hover:border-slate-900 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
-            <p className="mr-2">View Github</p>
-            <FaGithub />
-          </button>
+          <a
+            href="https://github.com/basalamahalam/SISPEK13-Ver.1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="flex items-center justify-evenly mt-10 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-1 border-slate-600 text-gray-300 hover:border-slate-900 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
+              <p className="mr-2">View Github</p>
+              <FaGithub />
+            </button>
+          </a>
         </div>
       </div>
       <div className="mt-5 flex items-center justify-end bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 p-6 rounded-xl">
@@ -193,16 +211,34 @@ const Projects = () => {
               <p className="text-teal-400 text-xs">FastAPI</p>
             </div>
           </div>
-          <button className="flex items-center justify-evenly mt-10 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-1 border-slate-600 text-gray-300 hover:border-slate-900 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
-            <p className="mr-2">View Github</p>
-            <FaGithub />
-          </button>
+          <a
+            href="https://github.com/basalamahalam/Kelompok6_TubesProvis_LenderUp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="flex items-center justify-evenly mt-10 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-1 border-slate-600 text-gray-300 hover:border-slate-900 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
+              <p className="mr-2">View Github</p>
+              <FaGithub />
+            </button>
+          </a>
         </div>
         <img
           src={Gambar}
           alt="data"
           className="w-[400px] bg-slate-300 ml-10 rounded-lg shadow-lg"
         />
+      </div>
+      <div className="mt-10 flex justify-center items-center">
+        <p className="text-white font-inter font-light mr-2 text-sm">
+          Need to see more?
+        </p>
+        <a
+          href="mailto:basalamahalam2@gmail.com"
+          rel="noopener noreferrer"
+          className="text-teal-400 font-inter font-light text-sm"
+        >
+          Contact me
+        </a>
       </div>
     </div>
   );
