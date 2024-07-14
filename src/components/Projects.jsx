@@ -53,19 +53,48 @@ const Projects = () => {
       </div>
       <div className="mt-5 flex items-center justify-end bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 p-6 rounded-xl">
         <div>
-          <div className="max-w-fit bg-teal-600 py-1 px-3 rounded-lg">
-            <h1 className="text-black font-bold font-inter text-xs tracking-wide">
-              Website
+          <div className="flex justify-start items-center">
+            <h1 className="mr-3 text-2xl font-inter font-bold text-white tracking-wider">
+              SISPEK13 Ver.2
             </h1>
+            <div className="max-w-fit border-1 border-slate-400 py-1 px-3 mr-3 rounded-br-lg rounded-tl-lg">
+              <h1 className="text-slate-300  font-lato text-xs tracking-wide">
+                Website
+              </h1>
+            </div>
+            <div className="max-w-fit border-1 border-slate-400 py-1 px-3 rounded-br-lg rounded-tl-lg">
+              <h1 className="text-slate-300  font-lato text-xs tracking-wide">
+                UI/UX
+              </h1>
+            </div>
           </div>
-          <h1 className="mt-5 text-2xl font-inter font-bold text-white tracking-wider">
-            SISPEK13 Ver.2
-          </h1>
           <p className="mt-2 text-slate-400 font-light font-inter">
-            Developed a website for GOReserve using Laravek and Tailwind CSS.
-            This website provides information about Sporthall and blablabla.
+            Updated the website by adding Tailwind CSS, Redis, a queue system,
+            and authorization. These enhancements improve the website's design,
+            and performance, providing a more efficient and user-friendly
+            experience for managing and accessing information about SISPEK13.
           </p>
-          <button className="flex items-center justify-evenly mt-5 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-2 border-slate-900 text-gray-300 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
+          <div className="mt-5 flex justify-start items-center">
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-300 text-xs">Laravel</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">TailwindCSS</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">Javascript</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">Styled Components</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">Redis</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">Queue System</p>
+            </div>
+          </div>
+          <button className="flex items-center justify-evenly mt-10 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-1 border-slate-600 text-gray-300 hover:border-slate-900 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
             <p className="mr-2">View Github</p>
             <FaGithub />
           </button>
@@ -83,19 +112,43 @@ const Projects = () => {
           className="w-[400px] bg-slate-300 mr-10 rounded-lg shadow-lg"
         />
         <div>
-          <div className="max-w-fit bg-teal-600 py-1 px-3 rounded-lg">
-            <h1 className="text-black font-bold font-inter text-xs tracking-wide">
-              Website
+          <div className="flex justify-start items-center">
+            <h1 className="mr-3 text-2xl font-inter font-bold text-white tracking-wider">
+              SISPEK13 Ver.1
             </h1>
+            <div className="max-w-fit border-1 border-slate-400 py-1 px-3 mr-3 rounded-br-lg rounded-tl-lg">
+              <h1 className="text-slate-300  font-lato text-xs tracking-wide">
+                Website
+              </h1>
+            </div>
+            <div className="max-w-fit border-1 border-slate-400 py-1 px-3 rounded-br-lg rounded-tl-lg">
+              <h1 className="text-slate-300  font-lato text-xs tracking-wide">
+                UI/UX
+              </h1>
+            </div>
           </div>
-          <h1 className="mt-5 text-2xl font-inter font-bold text-white tracking-wider">
-            SISPEK13 Ver.1
-          </h1>
           <p className="mt-2 text-slate-400 font-light font-inter">
-            Developed a website for GOReserve using Laravek and Tailwind CSS.
-            This website provides information about Sporthall and blablabla.
+            Developed by a team, we used Laravel and Tailwind CSS to create a
+            website that provides information about organizations at SMKN 13
+            Bandung. This website showcases activities and how to join the
+            organizations, making it easier for students and the community to
+            access the latest information.
           </p>
-          <button className="flex items-center justify-evenly mt-5 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-2 border-slate-900 text-gray-300 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
+          <div className="mt-5 flex justify-start items-center">
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-300 text-xs">Laravel</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">CSS</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">Javascript</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">Styled Components</p>
+            </div>
+          </div>
+          <button className="flex items-center justify-evenly mt-10 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-1 border-slate-600 text-gray-300 hover:border-slate-900 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
             <p className="mr-2">View Github</p>
             <FaGithub />
           </button>
@@ -103,19 +156,44 @@ const Projects = () => {
       </div>
       <div className="mt-5 flex items-center justify-end bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 p-6 rounded-xl">
         <div>
-          <div className="max-w-fit bg-teal-600 py-1 px-3 rounded-lg">
-            <h1 className="text-black font-bold font-inter text-xs tracking-wide">
-              Website
+          <div className="flex justify-start items-center">
+            <h1 className="mr-3 text-2xl font-inter font-bold text-white tracking-wider">
+              LenderUp
             </h1>
+            <div className="max-w-fit border-1 border-slate-400 py-1 px-3 mr-3 rounded-br-lg rounded-tl-lg">
+              <h1 className="text-slate-300  font-lato text-xs tracking-wide">
+                Mobile Apps
+              </h1>
+            </div>
+            <div className="max-w-fit border-1 border-slate-400 py-1 px-3 rounded-br-lg rounded-tl-lg">
+              <h1 className="text-slate-300  font-lato text-xs tracking-wide">
+                UI/UX
+              </h1>
+            </div>
           </div>
-          <h1 className="mt-5 text-2xl font-inter font-bold text-white tracking-wider">
-            LenderUp
-          </h1>
           <p className="mt-2 text-slate-400 font-light font-inter">
-            Developed a website for GOReserve using Laravek and Tailwind CSS.
-            This website provides information about Sporthall and blablabla.
+            Developed a peer-to-peer (P2P) lending mobile app using Flutter,
+            focusing on UI/UX design and frontend development for both borrower
+            and lender interfaces.
           </p>
-          <button className="flex items-center justify-evenly mt-5 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-2 border-slate-900 text-gray-300 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
+          <div className="mt-5 flex justify-start items-center">
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-300 text-xs">Flutter</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">Dart</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">Figma</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">Styled Components</p>
+            </div>
+            <div className="p-1 px-2 bg-teal-400/10 rounded-lg mr-3">
+              <p className="text-teal-400 text-xs">FastAPI</p>
+            </div>
+          </div>
+          <button className="flex items-center justify-evenly mt-10 font-poppins px-6 py-1.5 tracking-wide rounded-md font-bold border-1 border-slate-600 text-gray-300 hover:border-slate-900 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
             <p className="mr-2">View Github</p>
             <FaGithub />
           </button>
