@@ -66,7 +66,7 @@ const About = () => {
           </p>
           <div className="w-[400px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-5">
             <div className="flex justify-start items-center">
-              <IoPersonCircleSharp className="text-white text-3xl" />
+              <IoPersonCircleSharp className="text-slate-400 text-3xl" />
               <div className="ml-5">
                 <h1 className="text-white font-medium text-xl font-inter">
                   Full Name
@@ -77,7 +77,7 @@ const About = () => {
               </div>
             </div>
             <div className="flex justify-start items-center mt-4">
-              <ImLocation className="text-white text-3xl" />
+              <ImLocation className="text-slate-400 text-3xl" />
               <div className="ml-5">
                 <h1 className="text-white font-medium text-xl font-inter">
                   Location
@@ -88,7 +88,7 @@ const About = () => {
               </div>
             </div>
             <div className="flex justify-start items-center mt-4">
-              <IoIosFootball className="text-white text-[32px]" />
+              <IoIosFootball className="text-slate-400 text-[32px]" />
               <div className="ml-5">
                 <h1 className="text-white font-medium text-xl font-inter">
                   Hobbies

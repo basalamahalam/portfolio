@@ -22,99 +22,99 @@ const Skills = () => {
       <div className="py-5">
         <div className="flex items-center justify-between ">
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-md p-4">
-            <FaHtml5 className="text-white text-4xl mr-5" />
+            <FaHtml5 className="text-slate-400 text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               HTML
             </h1>
           </div>
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-4">
-            <IoLogoCss3 className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <IoLogoCss3 className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               CSS
             </h1>
           </div>
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-4">
-            <IoLogoJavascript className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <IoLogoJavascript className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Javascript
             </h1>
           </div>
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-4">
-            <FaReact className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <FaReact className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               ReactJs
             </h1>
           </div>
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-4">
-            <RiNextjsFill className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <RiNextjsFill className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               NextJs
             </h1>
           </div>
         </div>
         <div className="flex items-center justify-between mt-5">
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-md p-4">
-            <FaLaravel className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <FaLaravel className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Laravel
             </h1>
           </div>
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-md p-4">
-            <DiCodeigniter className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <DiCodeigniter className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Codeigniter
             </h1>
           </div>
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-md p-4">
-            <SiFlutter className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl tracking-wider text-slate-300">
+            <SiFlutter className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl tracking-wider text-white">
               Flutter
             </h1>
           </div>
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-md p-4">
-            <RiTailwindCssFill className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <RiTailwindCssFill className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               TailwindCSS
             </h1>
           </div>
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-md p-4">
-            <FaBootstrap className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <FaBootstrap className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Bootstrap
             </h1>
           </div>
         </div>
         <div className="flex items-center justify-between mt-5">
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-md p-4">
-            <FaGitAlt className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <FaGitAlt className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Git
             </h1>
           </div>
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-md p-4">
-            <IoLogoGithub className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <IoLogoGithub className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Github
             </h1>
           </div>
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-md p-4">
-            <FiFigma className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <FiFigma className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Figma
             </h1>
           </div>
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-md p-4">
-            <h1 className="text-white text-4xl font-poppins font-bold mr-5">
+            <h1 className="text-slate-400 text-4xl font-poppins font-bold mr-5">
               C
             </h1>
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               C
             </h1>
           </div>
 
           <div className="flex items-center justify-start w-[200px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-md p-4">
-            <FaJava className="text-white text-4xl mr-5" />
-            <h1 className="font-lato font-medium text-xl text-slate-300 tracking-wider">
+            <FaJava className="text-slate-400 text-4xl mr-5" />
+            <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Java
             </h1>
           </div>
