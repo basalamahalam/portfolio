@@ -117,7 +117,7 @@ const Projects = () => {
           className="hidden lg:block lg:w-[400px] bg-slate-300 ml-10 rounded-lg shadow-lg"
         />
       </div>
-      <div className="mt-5 fllg:ex items-center justify-start bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 p-4 lg:p-6 rounded-xl">
+      <div className="mt-5 flex items-center justify-start bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 p-4 lg:p-6 rounded-xl">
         <img
           src={Gambar}
           alt="data"

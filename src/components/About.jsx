@@ -10,8 +10,8 @@ import { IoIosFootball } from "react-icons/io";
 
 const About = () => {
   return (
-    <div className="min-h-screen px-32 py-20 bg-gradient-to-b from-[#021219] to-[#051923]">
-      <div className="mt-24 flex items-center justify-evenly">
+    <div className="min-h-screen px-10 lg:px-32 py-10 lg:py-20 bg-gradient-to-b from-[#021219] to-[#051923]">
+      <div className="mt-44 lg:mt-24 flex items-center justify-evenly">
         {/* button ya jangan lupa */}
         <a
           href="https://www.linkedin.com/in/basalamahalam/"
@@ -50,25 +50,25 @@ const About = () => {
         </a>
       </div>
       <div className="mt-[100px]">
-        <h1 className="text-center font-lato text-7xl text-white font-bold tracking-wider">
+        <h1 className="text-center font-lato text-5xl lg:text-7xl text-white font-bold tracking-wider">
           Hello, I'm <span className="text-secondary">Alam</span>!
         </h1>
-        <h3 className="mt-5 tracking-wide font-lato text-center text-5xl font-medium text-slate-500">
+        <h3 className="mt-5 tracking-wide font-lato text-center text-4xl lg:text-5xl font-medium text-slate-500">
           Frontend Developer
         </h3>
         <div className="mt-10 flex items-center justify-around">
-          <p className="w-[400px] text-justify text-lg text-slate-300 font-light font-inter tracking-wide">
+          <p className="w-[300px] lg:w-[400px] text-justify text-base lg:text-lg text-slate-300 font-light font-inter tracking-wide">
             I am a computer science student at Universitas Pendidikan Indonesia
             with a deep interest and strong motivation in the field of
             technology. I am always enthusiastic about learning new things and
             continuously seeking challenges and new experiences to improve
             myself. I also enjoy teamwork, communication, and problem-solving.
           </p>
-          <div className="w-[400px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-5">
+          <div className="w-[300px] lg:w-[400px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-5">
             <div className="flex justify-start items-center">
-              <IoPersonCircleSharp className="text-slate-400 text-3xl" />
+              <IoPersonCircleSharp className="text-slate-400 text-2xl lg:text-3xl" />
               <div className="ml-5">
-                <h1 className="text-white font-medium text-xl font-inter">
+                <h1 className="text-white font-medium text-lg lg:text-xl font-inter">
                   Full Name
                 </h1>
                 <p className="text-slate-300 text-sm tracking-wider font-inter">
@@ -77,9 +77,9 @@ const About = () => {
               </div>
             </div>
             <div className="flex justify-start items-center mt-4">
-              <ImLocation className="text-slate-400 text-3xl" />
+              <ImLocation className="text-slate-400 text-2xl lg:text-3xl" />
               <div className="ml-5">
-                <h1 className="text-white font-medium text-xl font-inter">
+                <h1 className="text-white font-medium text-lg lg:text-xl font-inter">
                   Location
                 </h1>
                 <p className="text-slate-300 text-sm tracking-wider font-inter">
@@ -90,7 +90,7 @@ const About = () => {
             <div className="flex justify-start items-center mt-4">
               <IoIosFootball className="text-slate-400 text-[32px]" />
               <div className="ml-5">
-                <h1 className="text-white font-medium text-xl font-inter">
+                <h1 className="text-white font-medium text-lg lg:text-xl font-inter">
                   Hobbies
                 </h1>
                 <p className="text-slate-300 text-sm tracking-wider font-inter">
