@@ -7,9 +7,9 @@ import { AiFillDribbbleCircle } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="px-32 py-4 flex items-center justify-between">
-      <div>
-        <h1 className="text-center text-slate-100 font-inter tracking-widest mr-5">
+    <footer className="px-10 md:px-32 py-4 flex md:flex-row flex-col items-center justify-center md:justify-between">
+      <div className="hidden md:block">
+        <h1 className="text-center text-slate-100 font-inter tracking-widest mr-0 md:mr-5">
           Muhammad Alam Basalamah
         </h1>
         <div className="flex justify-start items-center mt-1.5">
@@ -55,6 +55,12 @@ const Footer = () => {
         >
           <BiLogoGmail className="text-slate-500 text-lg hover:text-teal-400 hover:scale-125 transition-all ease-in-out duration-500" />
         </a>
+      </div>
+      <div className="md:hidden flex justify-center items-center mt-4">
+        <FaRegCopyright className="text-[9px] text-white mr-2" />
+        <h1 className="text-slate-200 font-inter font-light text-[9px]">
+          Muhammad Alam Basalamah 2024 - All right reserved
+        </h1>
       </div>
     </footer>
   );

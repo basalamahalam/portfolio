@@ -1,6 +1,6 @@
-import Cv from "../components/Cv";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Cv from "../components/Cv";
 
 const Resume = () => {
   return (
