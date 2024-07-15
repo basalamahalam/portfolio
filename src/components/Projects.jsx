@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div className="min-h-full pt-28 px-10 md:px-32 pb-20 bg-gradient-to-b from-primary to-[#051923]">
+    <div className="min-h-full pt-28 px-10 lg:px-20 xl:px-32 pb-20 bg-gradient-to-b from-primary to-[#051923]">
       <h1 className="font-black font-lato text-3xl lg:text-4xl text-white text-center tracking-widest">
         PROJECTS
       </h1>
@@ -11,7 +11,7 @@ const Projects = () => {
         <img
           src={Gambar}
           alt="data"
-          className="hidden lg:block lg:w-[400px] bg-slate-300 mr-10 rounded-lg shadow-lg"
+          className="hidden lg:block lg:w-[350px] xl:w-[400px] bg-slate-300 mr-10 rounded-lg shadow-lg"
         />
         <div>
           <div className="lg:mt-0 flex justify-start items-center">
@@ -114,14 +114,14 @@ const Projects = () => {
         <img
           src={Gambar}
           alt="data"
-          className="hidden lg:block lg:w-[400px] bg-slate-300 ml-10 rounded-lg shadow-lg"
+          className="hidden lg:block lg:w-[350px] xl:w-[400px] bg-slate-300 ml-10 rounded-lg shadow-lg"
         />
       </div>
       <div className="mt-5 flex items-center justify-start bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 p-4 lg:p-6 rounded-xl">
         <img
           src={Gambar}
           alt="data"
-          className="hidden lg:block lg:w-[400px] bg-slate-300 mr-10 rounded-lg shadow-lg"
+          className="hidden lg:block lg:w-[350px] xl:w-[400px] bg-slate-300 mr-10 rounded-lg shadow-lg"
         />
         <div>
           <div className="flex justify-start items-center">
@@ -225,7 +225,7 @@ const Projects = () => {
         <img
           src={Gambar}
           alt="data"
-          className="hidden lg:block lg:w-[400px] bg-slate-300 ml-10 rounded-lg shadow-lg"
+          className="hidden lg:block lg:w-[350px] xl:w-[400px] bg-slate-300 ml-10 rounded-lg shadow-lg"
         />
       </div>
       <div className="mt-10 flex justify-center items-center">

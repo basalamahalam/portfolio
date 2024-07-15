@@ -10,7 +10,7 @@ import { IoIosFootball } from "react-icons/io";
 
 const About = () => {
   return (
-    <div className="min-h-screen px-10 lg:px-32 py-10 lg:py-20 bg-gradient-to-b from-[#021219] to-[#051923]">
+    <div className="lg:min-h-screen px-10 lg:px-20 xl:px-32 py-10 lg:py-20 bg-gradient-to-b from-[#021219] to-[#051923]">
       <div className="mt-44 lg:mt-24 flex items-center justify-evenly">
         {/* button ya jangan lupa */}
         <a
@@ -57,14 +57,14 @@ const About = () => {
           Frontend Developer
         </h3>
         <div className="mt-10 flex items-center justify-around">
-          <p className="w-[300px] lg:w-[400px] text-justify text-base lg:text-lg text-slate-300 font-light font-inter tracking-wide">
+          <p className="w-[300px] lg:w-[350px] xl:w-[400px] text-justify text-base lg:text-lg text-slate-300 font-light font-inter tracking-wide">
             I am a computer science student at Universitas Pendidikan Indonesia
             with a deep interest and strong motivation in the field of
             technology. I am always enthusiastic about learning new things and
             continuously seeking challenges and new experiences to improve
             myself. I also enjoy teamwork, communication, and problem-solving.
           </p>
-          <div className="w-[300px] lg:w-[400px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-5">
+          <div className="w-[300px] lg:w-[350px] xl:w-[400px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-5">
             <div className="flex justify-start items-center">
               <IoPersonCircleSharp className="text-slate-400 text-2xl lg:text-3xl" />
               <div className="ml-5">

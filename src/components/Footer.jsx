@@ -7,7 +7,7 @@ import { AiFillDribbbleCircle } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="px-10 md:px-32 py-4 flex md:flex-row flex-col items-center justify-center md:justify-between">
+    <footer className="px-10 xl:px-32 lg:px-20 py-4 flex md:flex-row flex-col items-center justify-center md:justify-between">
       <div className="hidden md:block">
         <h1 className="text-center text-slate-100 font-inter tracking-widest mr-0 md:mr-5">
           Muhammad Alam Basalamah

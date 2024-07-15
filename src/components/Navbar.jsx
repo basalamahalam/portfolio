@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed w-full top-0 left-0 z-30 flex justify-between items-center h-18 mx-auto max-w-full md:px-32 px-10 md:py-0 py-3 text-white backdrop-blur-md bg-primary bg-opacity-75 shadow-lg">
+      <div className="fixed w-full top-0 left-0 z-30 flex justify-between items-center h-18 mx-auto max-w-full xl:px-32 lg:px-20 px-10 md:py-0 py-3 text-white backdrop-blur-md bg-primary bg-opacity-75 shadow-lg">
         <Link to="/">
           <div className="py-1 px-3 border-2 border-teal-400 hover:border-slate-900 hover:bg-slate-900 transition duration-500 rounded-br-xl">
             <p className="font-lato md:text-lg text-base font-bold tracking-widest text-teal-400">
