@@ -20,95 +20,95 @@ const Skills = () => {
         My Skills
       </h1>
       <div className="py-5">
-        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 md:gap-2 xl:gap-5">
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-md p-4">
-            <FaHtml5 className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2 xl:gap-5">
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-md p-4">
+            <FaHtml5 className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               HTML
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-lg p-4">
-            <IoLogoCss3 className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-lg p-4">
+            <IoLogoCss3 className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               CSS
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-lg p-4">
-            <IoLogoJavascript className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-lg p-4">
+            <IoLogoJavascript className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Javascript
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-lg p-4">
-            <FaReact className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-lg p-4">
+            <FaReact className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               ReactJs
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-lg p-4">
-            <RiNextjsFill className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-lg p-4">
+            <RiNextjsFill className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               NextJs
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-md p-4">
-            <FaLaravel className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-md p-4">
+            <FaLaravel className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Laravel
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-md p-4">
-            <DiCodeigniter className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-md p-4">
+            <DiCodeigniter className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Codeigniter
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-md p-4">
-            <SiFlutter className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-md p-4">
+            <SiFlutter className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl tracking-wider text-white">
               Flutter
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-md p-4">
-            <RiTailwindCssFill className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-md p-4">
+            <RiTailwindCssFill className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               TailwindCSS
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-md p-4">
-            <FaBootstrap className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-md p-4">
+            <FaBootstrap className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Bootstrap
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-md p-4">
-            <FaGitAlt className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-md p-4">
+            <FaGitAlt className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Git
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-md p-4">
-            <IoLogoGithub className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-md p-4">
+            <IoLogoGithub className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Github
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-md p-4">
-            <FiFigma className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-md p-4">
+            <FiFigma className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Figma
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-md p-4">
-            <h1 className="text-slate-400 lg:text-2xl xl:text-4xl font-poppins font-bold mr-5">
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-md p-4">
+            <h1 className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl font-poppins font-bold mr-5">
               C
             </h1>
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               C
             </h1>
           </div>
-          <div className="flex items-center justify-start w-[200px] md:w-full skill-card border border-slate-800 rounded-md p-4">
-            <FaJava className="text-slate-400 lg:text-2xl xl:text-4xl mr-5" />
+          <div className="flex items-center justify-start w-auto md:w-full skill-card border border-slate-800 rounded-md p-4">
+            <FaJava className="text-slate-400 md:text-xl lg:text-2xl xl:text-4xl mr-5" />
             <h1 className="font-lato font-medium text-xl text-white tracking-wider">
               Java
             </h1>

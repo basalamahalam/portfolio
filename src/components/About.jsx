@@ -11,7 +11,7 @@ import { IoIosFootball } from "react-icons/io";
 const About = () => {
   return (
     <div className="lg:min-h-screen px-10 lg:px-20 xl:px-32 py-10 lg:py-20 bg-gradient-to-b from-[#021219] to-[#051923]">
-      <div className="mt-44 lg:mt-24 flex items-center justify-evenly">
+      <div className="hidden mt-44 lg:mt-24 lg:flex items-center justify-evenly">
         {/* button ya jangan lupa */}
         <a
           href="https://www.linkedin.com/in/basalamahalam/"
@@ -56,15 +56,8 @@ const About = () => {
         <h3 className="mt-5 tracking-wide font-lato text-center text-4xl lg:text-5xl font-medium text-slate-500">
           Frontend Developer
         </h3>
-        <div className="mt-10 flex items-center justify-around">
-          <p className="w-[300px] lg:w-[350px] xl:w-[400px] text-justify text-base lg:text-lg text-slate-300 font-light font-inter tracking-wide">
-            I am a computer science student at Universitas Pendidikan Indonesia
-            with a deep interest and strong motivation in the field of
-            technology. I am always enthusiastic about learning new things and
-            continuously seeking challenges and new experiences to improve
-            myself. I also enjoy teamwork, communication, and problem-solving.
-          </p>
-          <div className="w-[300px] lg:w-[350px] xl:w-[400px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-5">
+        <div className="mt-16 md:flex items-center justify-around">
+          <div className="w-full lg:w-[350px] xl:w-[400px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-5">
             <div className="flex justify-start items-center">
               <IoPersonCircleSharp className="text-slate-400 text-2xl lg:text-3xl" />
               <div className="ml-5">
@@ -99,6 +92,13 @@ const About = () => {
               </div>
             </div>
           </div>
+          <p className="w-full mt-10 md:mt-0 lg:w-[350px] xl:w-[500px] text-justify text-base lg:text-lg text-slate-300 font-light font-inter tracking-wide">
+            I am a computer science student at Universitas Pendidikan Indonesia
+            with a deep interest and strong motivation in the field of
+            technology. I am always enthusiastic about learning new things and
+            continuously seeking challenges and new experiences to improve
+            myself. I also enjoy teamwork, communication, and problem-solving.
+          </p>
         </div>
       </div>
     </div>
