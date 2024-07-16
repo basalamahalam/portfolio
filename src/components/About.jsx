@@ -11,7 +11,7 @@ import Gambar from "../assets/foto.png";
 
 const About = () => {
   return (
-    <div className="xl:min-h-screen px-10 lg:px-20 xl:px-32 py-10 lg:py-24 xl:py-32 bg-gradient-to-b from-[#021219] to-[#051923]">
+    <div className="px-10 lg:px-20 xl:px-32 2xl:px-64 py-10 lg:py-24 xl:py-32 bg-gradient-to-b from-[#021219] to-[#051923]">
       <div className="hidden mt-0 lg:mt-8 xl:mt-10 lg:flex items-center justify-evenly">
         {/* button ya jangan lupa */}
         <a

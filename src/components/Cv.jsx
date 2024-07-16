@@ -5,7 +5,7 @@ import { IoBriefcase } from "react-icons/io5";
 
 const Cv = () => {
   return (
-    <div className="pt-28 xl:px-32 lg:px-20 px-10 pb-20 min-h-screen bg-gradient-to-b from-primary to-[#051923]">
+    <div className="pt-28 2xl:px-64  xl:px-32 lg:px-20 px-10 pb-20 min-h-screen bg-gradient-to-b from-primary to-[#051923]">
       <h1 className="font-black font-lato md:text-4xl text-3xl text-white text-center tracking-widest">
         RESUME
       </h1>

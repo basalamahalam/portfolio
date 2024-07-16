@@ -15,7 +15,7 @@ import { FaJava } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className="bg-gradient-to-t from-[#03071e] to-[#051923] xl:px-32 lg:px-20 px-10 pb-10 pt-0 md:pt-10 lg:pt-0">
+    <div className="bg-gradient-to-t from-[#03071e] to-[#051923] 2xl:px-64 xl:px-32 lg:px-20 px-10 pb-10 pt-0 md:pt-10 lg:pt-0">
       <h1 className="text-white font-lato font-bold text-xl md:text-2xl tracking-wider">
         My Skills
       </h1>

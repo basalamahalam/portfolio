@@ -19,6 +19,9 @@ export default {
         primary: "#000814",
         secondary: "#2DD4BF",
       },
+      height: {
+        screen: "100vh",
+      },
     },
   },
   plugins: [nextui(), require("tailwind-scrollbar")],
