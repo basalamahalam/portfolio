@@ -3,7 +3,7 @@ import Gambar from "../assets/foto.png";
 
 const Header = () => {
   return (
-    <div className="hidden pt-24 lg:min-h-screen md:flex items-start justify-center bg-gradient-to-b from-primary to-[#021219]">
+    <div className="hidden pt-24 xl:min-h-screen md:flex items-start justify-center bg-gradient-to-b from-primary to-[#021219]">
       <div className="relative z-0">
         <div className="flex-col items-center justify-center">
           <p className="hidden lg:block absolute w-full top-[8%] right-[95%] font-lato font-bold text-xl text-secondary -z-10 tracking-wider">

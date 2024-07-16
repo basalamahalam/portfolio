@@ -1,14 +1,33 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const location = useLocation();
+  const navRef = useRef();
 
   const handleNav = () => {
     setNav(!nav);
   };
+
+  const handleClickOutside = (event) => {
+    if (navRef.current && !navRef.current.contains(event.target)) {
+      setNav(false);
+    }
+  };
+
+  useEffect(() => {
+    if (nav) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [nav]);
 
   const getLinkClass = (path) => {
     return location.pathname === path
@@ -71,6 +90,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
+        ref={navRef}
         className={`fixed top-18 left-0 w-full bg-primary backdrop-blur-md shadow-lg md:hidden transition-transform duration-500 ${
           nav ? "translate-y-14" : "-translate-y-full"
         }`}

@@ -180,7 +180,7 @@ const Projects = () => {
             </h1>
             <div className="max-w-fit border-1 border-slate-400 py-1 lg:px-3 px-2 mr-3 rounded-br-lg rounded-tl-lg">
               <h1 className="text-slate-300  font-lato text-[9px] lg:text-xs tracking-wide">
-                Mobile Apps
+                Mobile
               </h1>
             </div>
             <div className="max-w-fit border-1 border-slate-400 py-1 lg:px-3 px-2 rounded-br-lg rounded-tl-lg">
