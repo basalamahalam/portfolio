@@ -19,10 +19,16 @@ export default {
         primary: "#000814",
         secondary: "#2DD4BF",
       },
-      height: {
-        screen: "100vh",
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0, transform: "translateY(20px)" },
+          "100%": { opacity: 1, transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 0.8s ease-out",
       },
     },
   },
-  plugins: [nextui(), require("tailwind-scrollbar")],
+  plugins: [require("tailwind-scrollbar")],
 };

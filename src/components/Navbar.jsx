@@ -31,7 +31,7 @@ const Navbar = () => {
 
   const getLinkClass = (path) => {
     return location.pathname === path
-      ? "text-teal-400"
+      ? "text-teal-400 bg-slate-900 rounded-lg lg:py-2"
       : "text-white hover:text-teal-400 transition duration-500";
   };
 
@@ -97,40 +97,45 @@ const Navbar = () => {
       >
         <ul className="flex flex-col px-10">
           <li
-            className={`pt-6 pb-3 text-sm font-inter tracking-widest ${getLinkClass(
+            onClick={handleNav}
+            className={`mt-3 py-3 text-sm font-inter tracking-widest ${getLinkClass(
               "/"
             )}`}
           >
-            <Link to="/" onClick={handleNav} className="nav_link">
+            <Link to="/" className="block w-full px-3 nav_link">
               Home
             </Link>
           </li>
           <li
+            onClick={handleNav}
             className={`py-3 text-sm font-inter tracking-widest ${getLinkClass(
               "/resume"
             )}`}
           >
-            <Link to="/resume" onClick={handleNav} className="nav_link">
+            <Link to="/resume" className="block w-full px-3 nav_link">
               Resume
             </Link>
           </li>
           <li
+            onClick={handleNav}
             className={`py-3 text-sm font-inter tracking-widest ${getLinkClass(
               "/projects"
             )}`}
           >
-            <Link to="/projects" onClick={handleNav} className="nav_link">
+            <Link to="/projects" className="block w-full px-3 nav_link">
               Projects
             </Link>
           </li>
           <li
-            className={`py-3 text-sm font-inter tracking-widest ${getLinkClass(
-              "/projects"
-            )}`}
+            onClick={handleNav}
+            className="py-3 text-sm font-inter tracking-widest"
           >
-            <Link to="/projects" onClick={handleNav} className="nav_link">
-              Projects
-            </Link>
+            <a
+              href="mailto:basalamahalam2@gmail.com"
+              className="block w-full px-3 nav_link text-white hover:text-teal-400 transition duration-500"
+            >
+              Contact
+            </a>
           </li>
         </ul>
       </div>

@@ -11,7 +11,7 @@ import Gambar from "../assets/foto.png";
 
 const About = () => {
   return (
-    <div className="px-10 lg:px-20 xl:px-32 2xl:px-64 py-10 lg:py-24 xl:py-32 bg-gradient-to-b from-[#021219] to-[#051923]">
+    <div className="px-10 lg:px-20 xl:px-32 2xl:px-64 py-10 lg:py-24 xl:py-32 bg-gradient-to-b from-[#021219] to-[#051923] animate-fadeIn">
       <div className="hidden mt-0 lg:mt-8 xl:mt-10 lg:flex items-center justify-evenly">
         {/* button ya jangan lupa */}
         <a
@@ -63,7 +63,7 @@ const About = () => {
           className="block md:hidden w-[150px] mt-5 mx-auto"
         />
         <div className="mt-10 md:mt-16 md:flex items-center justify-around">
-          <div className="w-full md:w-[300px] lg:w-[350px] xl:w-[400px] bg-gradient-to-r from-[#081424] to-[#051923] border-1 border-slate-800 rounded-lg p-5">
+          <div className="w-full md:w-[300px] lg:w-[350px] xl:w-[400px] bg-gradient-to-r from-[#081424] to-[#051923] border border-slate-800 rounded-lg p-5">
             <div className="flex justify-start items-center">
               <IoPersonCircleSharp className="text-slate-400 text-2xl lg:text-3xl" />
               <div className="ml-5">
