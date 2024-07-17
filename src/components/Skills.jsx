@@ -14,6 +14,16 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 
 const Skills = () => {
+  const handleDownload = () => {
+    const pdfUrl = "CV_Muhammad Alam Basalamah.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "CV_Muhammad Alam Basalamah.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="bg-gradient-to-t from-[#03071e] to-[#051923] 2xl:px-64 xl:px-32 lg:px-20 px-10 pb-10 pt-0 md:pt-10 lg:pt-0 animate-fadeIn">
       <h1 className="text-white font-lato font-bold text-xl md:text-2xl tracking-wider">
@@ -118,7 +128,10 @@ const Skills = () => {
           <p className="mr-0 md:mr-5 text-slate-200 text-inter text-xs md:text-base">
             Want to see my Resume/CV?
           </p>
-          <button className="mt-4 md:mt-0 font-poppins px-4 md:px-8 py-1.5 tracking-wide rounded-md text-xs md:text-base font-bold border border-slate-800 text-gray-300 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
+          <button
+            onClick={handleDownload}
+            className="mt-4 md:mt-0 font-poppins px-4 md:px-8 py-1.5 tracking-wide rounded-md text-xs md:text-base font-bold border border-slate-800 text-gray-300 hover:bg-slate-900 hover:text-teal-400 transition duration-500"
+          >
             Download Resume
           </button>
         </div>

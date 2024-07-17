@@ -2,6 +2,16 @@ import React, { useState } from "react";
 import Gambar from "../assets/foto.png";
 
 const Header = () => {
+  const handleDownload = () => {
+    const pdfUrl = "CV_Muhammad Alam Basalamah.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "CV_Muhammad Alam Basalamah.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="hidden pt-24 md:flex items-start justify-center bg-gradient-to-b from-primary to-[#021219] animate-fadeIn">
       <div className="relative z-0">
@@ -30,7 +40,10 @@ const Header = () => {
         <p className="absolute -bottom-[15%] -right-[57%] lg:-right-[97%] z-10 lg:translate-x-0 translate-x-1/2 text-secondary text-center p-4 font-bold font-lato text-lg lg:text-xl tracking-wider">
           Bandung, Indonesia
         </p>
-        <button className="hidden lg:block absolute z-10 -bottom-[35%] -left-[50%] -translate-x-1/2 lg:translate-x-0 lg:-bottom-[15%] lg:-left-[95%] font-poppins text-lg px-8 py-1.5 tracking-wide rounded-md font-bold border border-slate-800 text-gray-300 hover:bg-slate-900 hover:text-teal-400 transition duration-500">
+        <button
+          onClick={handleDownload}
+          className="hidden lg:block absolute z-10 -bottom-[35%] -left-[50%] -translate-x-1/2 lg:translate-x-0 lg:-bottom-[15%] lg:-left-[95%] font-poppins text-lg px-8 py-1.5 tracking-wide rounded-md font-bold border border-slate-800 text-gray-300 hover:bg-slate-900 hover:text-teal-400 transition duration-500"
+        >
           Download Resume
         </button>
       </div>
