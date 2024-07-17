@@ -1,4 +1,8 @@
-import Gambar from "../assets/alam.png";
+import Motoom from "../assets/motoom.png";
+import Lender from "../assets/lenderup.png";
+import Goreserve from "../assets/goreserve.png";
+import Sispek1 from "../assets/sispek-1.png";
+import Sispek2 from "../assets/sispek-2.png";
 import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
@@ -9,7 +13,7 @@ const Projects = () => {
       </h1>
       <div className="mt-12 block lg:flex items-center justify-start bg-gradient-to-r from-[rgb(8,20,36)] to-[#051923] border border-slate-800 p-4 lg:p-6 rounded-xl hover:scale-105 transition-all ease-out duration-500">
         <img
-          src={Gambar}
+          src={Goreserve}
           alt="data"
           className="hidden lg:block lg:w-[350px] xl:w-[400px] bg-slate-300 mr-10 rounded-lg shadow-lg"
         />
@@ -112,14 +116,14 @@ const Projects = () => {
           </a>
         </div>
         <img
-          src={Gambar}
+          src={Sispek2}
           alt="data"
           className="hidden lg:block lg:w-[350px] xl:w-[400px] bg-slate-300 ml-10 rounded-lg shadow-lg"
         />
       </div>
       <div className="mt-5 flex items-center justify-start bg-gradient-to-r from-[#081424] to-[#051923] border border-slate-800 p-4 lg:p-6 rounded-xl hover:scale-105 transition-all ease-out duration-500">
         <img
-          src={Gambar}
+          src={Sispek1}
           alt="data"
           className="hidden lg:block lg:w-[350px] xl:w-[400px] bg-slate-300 mr-10 rounded-lg shadow-lg"
         />
@@ -223,14 +227,14 @@ const Projects = () => {
           </a>
         </div>
         <img
-          src={Gambar}
+          src={Lender}
           alt="data"
           className="hidden lg:block lg:w-[350px] xl:w-[400px] bg-slate-300 ml-10 rounded-lg shadow-lg"
         />
       </div>
       <div className="mt-5 flex items-center justify-start bg-gradient-to-r from-[#081424] to-[#051923] border border-slate-800 p-4 lg:p-6 rounded-xl hover:scale-105 transition-all ease-out duration-500">
         <img
-          src={Gambar}
+          src={Motoom}
           alt="data"
           className="hidden lg:block lg:w-[350px] xl:w-[400px] bg-slate-300 mr-10 rounded-lg shadow-lg"
         />
