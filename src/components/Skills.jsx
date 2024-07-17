@@ -15,7 +15,7 @@ import { FaJava } from "react-icons/fa";
 
 const Skills = () => {
   const handleDownload = () => {
-    const pdfUrl = "CV_Muhammad Alam Basalamah.pdf";
+    const pdfUrl = "/CV_Muhammad Alam Basalamah.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "CV_Muhammad Alam Basalamah.pdf"; // specify the filename
