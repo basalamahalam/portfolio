@@ -55,7 +55,7 @@ const About = () => {
           Hello, I'm <span className="text-secondary">Alam</span>!
         </h1>
         <h3 className="mt-3 text-2xl font-medium tracking-wide text-center md:mt-5 font-lato md:text-4xl lg:text-5xl text-slate-500">
-          Software Developer
+          Fullstack Developer
         </h3>
         <img
           src={Gambar}
@@ -99,11 +99,7 @@ const About = () => {
             </div>
           </div>
           <p className="w-full mt-10 md:mt-0 md:w-[300px] lg:w-[350px] xl:w-[500px] text-justify text-sm md:text-base lg:text-lg text-slate-300 font-light font-inter tracking-wide">
-            I am a computer science student at Universitas Pendidikan Indonesia
-            with a deep interest and strong motivation in the field of
-            technology. I am always enthusiastic about learning new things and
-            continuously seeking challenges and new experiences to improve
-            myself. I also enjoy teamwork, communication, and problem-solving.
+            I'am a versatile Full Stack Developer who bridges the gap between robust engineering and intuitive product design. I specialize in architecting scalable backend systems using .NET and PHP (Laravel), paired with modern frontend development using React and TypeScript. My technical adaptability allows me to solve diverse business challenges—from streamlining enterprise workflows as an Odoo Developer to integrating smart solutions like Python-based AI chatbots. Complemented by a solid foundation in UI/UX design, I approach every project with a holistic mindset, transforming complex technical requirements into efficient, end-to-end digital solutions.
           </p>
         </div>
       </div>
