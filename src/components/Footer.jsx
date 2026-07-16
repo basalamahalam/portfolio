@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex justify-start items-center mt-1.5">
           <FaRegCopyright className="text-xs text-white mr-2" />
           <h1 className="text-slate-200 font-inter font-light text-xs tracking-wider">
-            2024 - All right reserved
+            2026 - All right reserved
           </h1>
         </div>
       </div>
