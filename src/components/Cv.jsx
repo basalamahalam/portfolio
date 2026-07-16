@@ -292,7 +292,7 @@ const Cv = () => {
                 </h1>
               </div>
               <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
-                2023 - 2024
+                Aug 2023 - Aug 2024
               </p>
             </div>
           </div>
@@ -313,7 +313,7 @@ const Cv = () => {
                 </h1>
               </div>
               <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
-                Mar 2022 - 2024
+                Mar 2022 - Mar 2024
               </p>
             </div>
           </div>
@@ -355,7 +355,7 @@ const Cv = () => {
                 </h1>
               </div>
               <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
-                2020 - 2023
+                Oct 2020 - Dec 2023
               </p>
             </div>
           </div>
@@ -376,7 +376,7 @@ const Cv = () => {
                 </h1>
               </div>
               <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
-                2019 - 2021
+                Jan 2019 - Jun 2021
               </p>
             </div>
           </div>
@@ -397,7 +397,7 @@ const Cv = () => {
                 </h1>
               </div>
               <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
-                2019 - 2020
+                Sept 2019 - Sept 2020
               </p>
             </div>
           </div>
