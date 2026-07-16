@@ -9,21 +9,22 @@ const Cv = () => {
       <h1 className="font-black font-lato md:text-4xl text-3xl text-white text-center tracking-widest">
         RESUME
       </h1>
+      
+      {/* EDUCATION SECTION */}
       <div className="mt-12 md:mt-5 mb-3 flex items-center justify-start">
         <IoBook className=" text-slate-400 text-xl md:text-2xl" />
         <h1 className="text-white font-lato font-bold text-xl md:text-2xl ml-5">
           Education
         </h1>
       </div>
-      <ul class="list-none">
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+      <ul className="list-none">
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
@@ -35,7 +36,7 @@ const Cv = () => {
                 Sept 2021 - Present
               </p>
               <p className="text-white font-inter text-sm md:text-base font-light">
-                Current GPA: 3.81/4.00
+                Current GPA: 3.79/4.00
               </p>
               <p className="text-slate-400 font-inter text-sm md:text-base font-light text-justify">
                 Activities & Societies: BEM Kemakom, Cerchio Yearbook, ConCo,
@@ -44,14 +45,13 @@ const Cv = () => {
             </div>
           </div>
         </li>
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 ml-5 rounded-xl">
               <div className="flex justify-start items-center">
@@ -73,21 +73,74 @@ const Cv = () => {
           </div>
         </li>
       </ul>
+
+      {/* EXPERIENCES SECTION */}
       <div className="mt-5 mb-3 flex items-center justify-start">
         <IoBriefcase className="text-slate-400 text-xl md:text-2xl" />
         <h1 className="text-white font-lato font-bold text-xl md:text-2xl ml-5">
           Experiences
         </h1>
       </div>
-      <ul class="list-none">
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+      <ul className="list-none">
+        
+        {/* NEW: PROJECT BINUS */}
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
+            </div>
+            <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
+              <div className="flex justify-start items-center">
+                <h1 className="text-white text-base md:text-lg font-inter">
+                  [Posisi/Peran Anda], Binus
+                </h1>
+              </div>
+              <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-5">
+                [Bulan Tahun] - [Bulan Tahun/Present]
+              </p>
+              <p className="text-slate-400 font-inter text-sm md:text-base font-light text-justify">
+                [Deskripsikan tanggung jawab dan teknologi yang digunakan pada project Binus di sini.]
+              </p>
+            </div>
+          </div>
+        </li>
+
+        {/* NEW: PROJECT SALAMUN */}
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
+              </div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
+            </div>
+            <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
+              <div className="flex justify-start items-center">
+                <h1 className="text-white text-base md:text-lg font-inter">
+                  [Posisi/Peran Anda], RSAU dr. M. Salamun
+                </h1>
+              </div>
+              <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-5">
+                [Bulan Tahun] - [Bulan Tahun/Present]
+              </p>
+              <p className="text-slate-400 font-inter text-sm md:text-base font-light text-justify">
+                [Deskripsikan tanggung jawab dan teknologi yang digunakan pada project Salamun di sini.]
+              </p>
+            </div>
+          </div>
+        </li>
+
+        {/* PREVIOUS EXPERIENCES */}
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
+              </div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
@@ -108,14 +161,13 @@ const Cv = () => {
             </div>
           </div>
         </li>
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 ml-5 mb-5 rounded-xl">
               <div className="flex justify-start items-center">
@@ -136,14 +188,13 @@ const Cv = () => {
             </div>
           </div>
         </li>
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 ml-5 mb-5 rounded-xl">
               <div className="flex justify-start items-center">
@@ -163,14 +214,13 @@ const Cv = () => {
             </div>
           </div>
         </li>
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 ml-5 mb-5 rounded-xl">
               <div className="flex justify-start items-center">
@@ -191,21 +241,22 @@ const Cv = () => {
           </div>
         </li>
       </ul>
+
+      {/* COURSES SECTION */}
       <div className="mt-5 mb-3 flex items-center justify-start">
         <IoSchoolSharp className="text-slate-400 text-xl md:text-2xl" />
         <h1 className="text-white font-lato font-bold text-xl md:text-2xl ml-5">
           Courses
         </h1>
       </div>
-      <ul class="list-none">
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+      <ul className="list-none">
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
@@ -223,14 +274,13 @@ const Cv = () => {
             </div>
           </div>
         </li>
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
               <div className="flex justify-start items-center">
@@ -250,21 +300,22 @@ const Cv = () => {
           </div>
         </li>
       </ul>
+
+      {/* ORGANIZATIONS SECTION */}
       <div className="mt-5 mb-3 flex items-center justify-start">
         <IoPeopleCircle className="text-slate-400 text-2xl" />
         <h1 className="text-white font-lato font-bold text-xl md:text-2xl ml-5">
           Organizations
         </h1>
       </div>
-      <ul class="list-none">
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+      <ul className="list-none">
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 font-lato">
               <div className="flex justify-start items-center">
@@ -278,14 +329,13 @@ const Cv = () => {
             </div>
           </div>
         </li>
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 font-lato">
               <div className="flex justify-start items-center">
@@ -299,14 +349,13 @@ const Cv = () => {
             </div>
           </div>
         </li>
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 font-lato">
               <div className="flex justify-start items-center">
@@ -320,14 +369,13 @@ const Cv = () => {
             </div>
           </div>
         </li>
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 font-lato">
               <div className="flex justify-start items-center">
@@ -341,14 +389,13 @@ const Cv = () => {
             </div>
           </div>
         </li>
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2 w-8 h-8"></svg>
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 font-lato">
               <div className="flex justify-start items-center">
@@ -362,14 +409,13 @@ const Cv = () => {
             </div>
           </div>
         </li>
-        <li class="rounded-lg group cursor-pointer">
-          <div class="flex flex-row">
-            <div class="items-center flex flex-col justify-around">
-              {/* <div class="border-l-2 border-dashed h-full border-white"></div> */}
-              <div class="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
-                <svg class="flex-none m-2  w-8 h-8"></svg>
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2  w-8 h-8"></svg>
               </div>
-              <div class="border-l-2 border-dashed h-full border-white"></div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
             </div>
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 font-lato">
               <div className="flex justify-start items-center">
