@@ -38,6 +38,9 @@ const Cv = () => {
               <p className="text-white font-inter text-sm md:text-base font-light">
                 Current GPA: 3.79/4.00
               </p>
+              <p className="text-slate-400 font-inter text-sm md:text-base font-light text-justify mt-1">
+                Activities & Societies: GDSC UPI, ConCo Technology, BEM Kemakom, etc.
+              </p>
             </div>
           </div>
         </li>
@@ -61,6 +64,9 @@ const Cv = () => {
               <p className="text-white font-inter text-sm md:text-base font-light">
                 Current GPA: 90.3/100
               </p>
+              <p className="text-slate-400 font-inter text-sm md:text-base font-light text-justify mt-1">
+                Activities & Societies: OSIS, Pramuka, Forum OSIS Jawa Barat, Forum Komunikasi Siswa, Satgas Adhiwiyata, JabarLead, etc.
+              </p>
             </div>
           </div>
         </li>
@@ -74,8 +80,6 @@ const Cv = () => {
         </h1>
       </div>
       <ul className="list-none">
-        
-        {/* BINUS */}
         <li className="rounded-lg group cursor-pointer">
           <div className="flex flex-row">
             <div className="items-center flex flex-col justify-around">
@@ -104,8 +108,6 @@ const Cv = () => {
             </div>
           </div>
         </li>
-
-        {/* SALAMUN */}
         <li className="rounded-lg group cursor-pointer">
           <div className="flex flex-row">
             <div className="items-center flex flex-col justify-around">
@@ -133,8 +135,6 @@ const Cv = () => {
             </div>
           </div>
         </li>
-
-        {/* BPSDM */}
         <li className="rounded-lg group cursor-pointer">
           <div className="flex flex-row">
             <div className="items-center flex flex-col justify-around">
@@ -161,8 +161,6 @@ const Cv = () => {
             </div>
           </div>
         </li>
-
-        {/* FUJICON */}
         <li className="rounded-lg group cursor-pointer">
           <div className="flex flex-row">
             <div className="items-center flex flex-col justify-around">
@@ -191,8 +189,6 @@ const Cv = () => {
             </div>
           </div>
         </li>
-
-        {/* JASAMEDIKA */}
         <li className="rounded-lg group cursor-pointer">
           <div className="flex flex-row">
             <div className="items-center flex flex-col justify-around">
@@ -220,8 +216,6 @@ const Cv = () => {
             </div>
           </div>
         </li>
-
-        {/* SIXTH PROJECTS */}
         <li className="rounded-lg group cursor-pointer">
           <div className="flex flex-row">
             <div className="items-center flex flex-col justify-around">
@@ -247,8 +241,6 @@ const Cv = () => {
             </div>
           </div>
         </li>
-
-        {/* GITS INDONESIA */}
         <li className="rounded-lg group cursor-pointer">
           <div className="flex flex-row">
             <div className="items-center flex flex-col justify-around">
@@ -284,6 +276,133 @@ const Cv = () => {
         </h1>
       </div>
       <ul className="list-none">
+        {/* GDSC UPI */}
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
+              </div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
+            </div>
+            <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
+              <div className="flex justify-start items-center">
+                <h1 className="text-white text-base md:text-lg font-inter">
+                  GDSC UPI - Minat dan Bakat Division
+                </h1>
+              </div>
+              <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
+                2023 - 2024
+              </p>
+            </div>
+          </div>
+        </li>
+        {/* ConCo Technology */}
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
+              </div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
+            </div>
+            <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
+              <div className="flex justify-start items-center">
+                <h1 className="text-white text-base md:text-lg font-inter">
+                  ConCo Technology - Vice Chairman
+                </h1>
+              </div>
+              <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
+                Mar 2022 - 2024
+              </p>
+            </div>
+          </div>
+        </li>
+        {/* BEM Kemakom */}
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
+              </div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
+            </div>
+            <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
+              <div className="flex justify-start items-center">
+                <h1 className="text-white text-base md:text-lg font-inter">
+                  BEM Kemakom FPMIPA UPI - Creative & Designer Staff
+                </h1>
+              </div>
+              <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
+                Jan 2022 - Jan 2023
+              </p>
+            </div>
+          </div>
+        </li>
+        {/* Taruna Karya */}
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
+              </div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
+            </div>
+            <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
+              <div className="flex justify-start items-center">
+                <h1 className="text-white text-base md:text-lg font-inter">
+                  Taruna Karya Kelurahan Binong - IT Division
+                </h1>
+              </div>
+              <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
+                2020 - 2023
+              </p>
+            </div>
+          </div>
+        </li>
+        {/* Forum Komunikasi Siswa */}
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
+              </div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
+            </div>
+            <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
+              <div className="flex justify-start items-center">
+                <h1 className="text-white text-base md:text-lg font-inter">
+                  Forum Komunikasi Siswa - Head of IT Division
+                </h1>
+              </div>
+              <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
+                2019 - 2021
+              </p>
+            </div>
+          </div>
+        </li>
+        {/* Forum OSIS Jawa Barat */}
+        <li className="rounded-lg group cursor-pointer">
+          <div className="flex flex-row">
+            <div className="items-center flex flex-col justify-around">
+              <div className="bg-secondary border-2 border-black rounded-full md:h-5 md:w-5 h-4 w-4 flex flex-grow justify-around">
+                <svg className="flex-none m-2 w-8 h-8"></svg>
+              </div>
+              <div className="border-l-2 border-dashed h-full border-white"></div>
+            </div>
+            <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 mb-5 font-lato">
+              <div className="flex justify-start items-center">
+                <h1 className="text-white text-base md:text-lg font-inter">
+                  Forum OSIS Jawa Barat - Staff of Media Bureau
+                </h1>
+              </div>
+              <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
+                2019 - 2020
+              </p>
+            </div>
+          </div>
+        </li>
+        {/* OSIS SMK Negeri 13 Bandung */}
         <li className="rounded-lg group cursor-pointer">
           <div className="flex flex-row">
             <div className="items-center flex flex-col justify-around">
@@ -295,11 +414,11 @@ const Cv = () => {
             <div className="flex flex-col p-1 pr-6 rounded-xl ml-5 font-lato">
               <div className="flex justify-start items-center">
                 <h1 className="text-white text-base md:text-lg font-inter">
-                  Taruna Karya Kelurahan Binong - IT Division
+                  OSIS SMK Negeri 13 Bandung - Chairman
                 </h1>
               </div>
               <p className="text-secondary text-xs md:mt-0 mt-1 md:text-sm tracking-wide font-inter mb-4">
-                2020 - 2023
+                Nov 2019 - Nov 2020
               </p>
             </div>
           </div>
