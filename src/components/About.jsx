@@ -4,16 +4,14 @@ import { FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { IoLogoGithub } from "react-icons/io";
 import { AiFillDribbbleCircle } from "react-icons/ai";
-import { IoPersonCircleSharp } from "react-icons/io5";
+import { IoPersonCircleSharp, IoSchool, IoBriefcase } from "react-icons/io5";
 import { ImLocation } from "react-icons/im";
-import { IoIosFootball } from "react-icons/io";
 import Gambar from "../assets/foto.png";
 
 const About = () => {
   return (
     <div className="px-10 lg:px-20 xl:px-32 2xl:px-64 py-10 lg:py-24 xl:py-32 bg-gradient-to-b from-[#021219] to-[#051923] animate-fadeIn">
       <div className="items-center hidden mt-0 lg:mt-8 xl:mt-10 lg:flex justify-evenly">
-        {/* button ya jangan lupa */}
         <a
           href="https://www.linkedin.com/in/basalamahalam/"
           target="_blank"
@@ -43,27 +41,32 @@ const About = () => {
           <AiFillDribbbleCircle className="text-4xl transition-all duration-500 ease-in-out text-slate-500 hover:text-teal-400 hover:scale-125" />
         </a>
         <a
-          href="mailto: basalamahalam2@gmail.com"
+          href="mailto:basalamahalam2@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           <BiLogoGmail className="text-4xl transition-all duration-500 ease-in-out text-slate-500 hover:text-teal-400 hover:scale-125" />
         </a>
       </div>
+      
       <div className="mt-[100px]">
         <h1 className="text-4xl font-bold tracking-wider text-center text-white font-lato md:text-5xl lg:text-7xl">
           Hello, I'm <span className="text-secondary">Alam</span>!
         </h1>
         <h3 className="mt-3 text-2xl font-medium tracking-wide text-center md:mt-5 font-lato md:text-4xl lg:text-5xl text-slate-500">
-          Fullstack Developer
+          Full Stack Developer
         </h3>
         <img
           src={Gambar}
           alt="Alam"
           className="block md:hidden w-[150px] mt-5 mx-auto"
         />
+        
         <div className="items-center justify-around mt-10 md:mt-16 md:flex">
+          {/* PROFILE CARD */}
           <div className="w-full md:w-[300px] lg:w-[350px] xl:w-[400px] bg-gradient-to-r from-[#081424] to-[#051923] border border-slate-800 rounded-lg p-5">
+            
+            {/* Full Name */}
             <div className="flex items-center justify-start">
               <IoPersonCircleSharp className="text-2xl text-slate-400 lg:text-3xl" />
               <div className="ml-5">
@@ -75,6 +78,8 @@ const About = () => {
                 </p>
               </div>
             </div>
+            
+            {/* Location */}
             <div className="flex items-center justify-start mt-4">
               <ImLocation className="text-2xl text-slate-400 lg:text-3xl" />
               <div className="ml-5">
@@ -86,20 +91,38 @@ const About = () => {
                 </p>
               </div>
             </div>
+
+            {/* Education Degree */}
             <div className="flex items-center justify-start mt-4">
-              <IoIosFootball className="text-slate-400 text-[32px]" />
+              <IoSchool className="text-2xl text-slate-400 lg:text-3xl" />
               <div className="ml-5">
                 <h1 className="text-base font-medium text-white md:text-lg lg:text-xl font-inter">
-                  Hobbies
+                  Education Degree
                 </h1>
                 <p className="text-xs tracking-wider text-slate-300 md:text-sm font-inter">
-                  Design, Exercise, & Playing Musical Instruments.
+                  Bachelor of Computer Science
                 </p>
               </div>
             </div>
+
+            {/* Availability */}
+            <div className="flex items-center justify-start mt-4">
+              <IoBriefcase className="text-2xl text-slate-400 lg:text-3xl" />
+              <div className="ml-5">
+                <h1 className="text-base font-medium text-white md:text-lg lg:text-xl font-inter">
+                  Availability
+                </h1>
+                <p className="text-xs tracking-wider text-slate-300 md:text-sm font-inter">
+                  Open for Opportunities
+                </p>
+              </div>
+            </div>
+
           </div>
+
+          {/* INTRODUCTION PARAGRAPH */}
           <p className="w-full mt-10 md:mt-0 md:w-[300px] lg:w-[350px] xl:w-[500px] text-justify text-sm md:text-base lg:text-lg text-slate-300 font-light font-inter tracking-wide">
-            I'am a versatile Full Stack Developer who bridges the gap between robust engineering and intuitive product design. I specialize in architecting scalable backend systems using .NET and PHP (Laravel), paired with modern frontend development using React and TypeScript. My technical adaptability allows me to solve diverse business challenges—from streamlining enterprise workflows as an Odoo Developer to integrating smart solutions like Python-based AI chatbots. Complemented by a solid foundation in UI/UX design, I approach every project with a holistic mindset, transforming complex technical requirements into efficient, end-to-end digital solutions.
+            I am a versatile Full Stack Developer who bridges the gap between robust engineering and intuitive product design. I specialize in architecting scalable backend systems using <strong>.NET</strong> and <strong>PHP (Laravel)</strong>, paired with modern frontend development using <strong>React and TypeScript</strong>. My technical adaptability allows me to solve diverse business challenges—from streamlining enterprise workflows as an <strong>Odoo Developer</strong> to integrating smart solutions like <strong>Python-based AI chatbots</strong>. Complemented by a solid foundation in <strong>UI/UX design</strong>, I approach every project with a holistic mindset, transforming complex technical requirements into efficient, end-to-end digital solutions.
           </p>
         </div>
       </div>
