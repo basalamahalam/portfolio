@@ -36,7 +36,7 @@ const Cv = () => {
                 2021 - 2026
               </p>
               <p className="text-white font-inter text-sm md:text-base font-light">
-                Current GPA: 3.79/4.00
+                Current GPA: 3.94/4.00
               </p>
               <p className="text-slate-400 font-inter text-sm md:text-base font-light text-justify mt-1">
                 Activities & Societies: GDSC UPI, ConCo Technology, BEM Kemakom, etc.
