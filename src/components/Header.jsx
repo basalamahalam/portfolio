@@ -41,7 +41,7 @@ const Header = () => {
           Bandung, Indonesia
         </p>
         <button
-          onClick={handleDownload}
+          //onClick={handleDownload}
           className="hidden lg:block absolute z-10 -bottom-[35%] -left-[50%] -translate-x-1/2 lg:translate-x-0 lg:-bottom-[15%] lg:-left-[95%] font-poppins text-lg px-8 py-1.5 tracking-wide rounded-md font-bold border border-slate-800 text-gray-300 hover:bg-slate-900 hover:text-teal-400 transition duration-500"
         >
           Download Resume
